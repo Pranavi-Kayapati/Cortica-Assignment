@@ -90,13 +90,13 @@ Node.js, Express, MongoDB, Mongoose
 1. **Start the Backend Server:**
    ```bash
    cd backend
-   npm start
+   npm run server
    ```
 
 2. **Start the Frontend Application:**
    ```bash
    cd frontend
-   npm start
+   npm run start
    ```
 
 3. **Access the Application:**
