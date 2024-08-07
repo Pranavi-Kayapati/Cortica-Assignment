@@ -20,7 +20,7 @@ This is a responsive e-commerce application built with React, Redux, and Chakra 
 
 ### API
 
--**GET `/api/menu/items`** - Retrive all items
+- **GET `/api/menu/items`** - Retrive all items.
 - **POST `/api/cart/add`** - Add an item to the cart.
 - **GET `/api/cart`** - Retrieve all cart items.
 - **PUT `/api/cart/update/:id`** - Update the quantity of a cart item.
