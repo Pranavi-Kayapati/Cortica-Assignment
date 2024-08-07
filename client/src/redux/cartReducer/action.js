@@ -8,7 +8,7 @@ import {
   CART_PRODUCT_REQUEST,
 } from "../actionTypes";
 
-const basicUrl = "http://localhost:8000/api/cart";
+const basicUrl = "https://cortica-assignment.onrender.com/api/cart";
 
 const productRequest = () => ({ type: CART_PRODUCT_REQUEST });
 

@@ -5,7 +5,7 @@ import {
   PRODUCT_REQUEST,
 } from "../actionTypes";
 
-const basicUrl = "http://localhost:8000/api/menu";
+const basicUrl = "https://cortica-assignment.onrender.com/api/menu";
 
 const productRequest = () => {
   return { type: PRODUCT_REQUEST };
