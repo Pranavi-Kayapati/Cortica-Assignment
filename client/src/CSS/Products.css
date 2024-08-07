@@ -29,7 +29,6 @@
 /* Media Queries */
 @media (max-width: 1200px) {
   .products-grid {
-    border: 2px solid red;
     gap: 0px;
     margin: 0px;
   }
@@ -46,12 +45,6 @@
   .product-card img {
     width: 70%;
     height: 250px;
-  }
-}
-
-@media (max-width: 1000px) {
-  .products-container {
-    border: 2px solid red;
   }
 }
 
