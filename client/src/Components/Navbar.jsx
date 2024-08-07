@@ -36,7 +36,7 @@ const Navbar = () => {
       >
         <Heading size="lg">
           <Link to="/" style={{ color: "white", textDecoration: "none" }}>
-            E-Commerce
+            FlavorFeast
           </Link>
         </Heading>
 
@@ -53,13 +53,14 @@ const Navbar = () => {
         </Box>
 
         {/* Desktop Navigation */}
-        <Flex display={display} align="center">
+        <Flex display={display} align="center" pr={"20"}>
           <Link
             to="/products"
             style={{
               textDecoration: "none",
               color: "white",
               position: "relative",
+              fontSize: "17px",
             }}
           >
             <span className="nav-link">Products</span>
@@ -70,6 +71,7 @@ const Navbar = () => {
               textDecoration: "none",
               color: "white",
               position: "relative",
+              fontSize: "17px",
             }}
           >
             <span className="nav-link">Cart</span>

@@ -33,10 +33,19 @@ const Home = () => {
         justifyContent="center"
       >
         <Heading as="h1" size={{ base: "lg", md: "2xl" }}>
-          Welcome to Our E-Commerce Store
+          Welcome to Our FlavorFeast
         </Heading>
-        <Text mt={4} fontSize={{ base: "sm", md: "lg" }}>
-          Discover a wide range of products to suit your needs and preferences.
+        <Text
+          mt={4}
+          fontSize={{ base: "sm", md: "lg" }}
+          maxWidth={"50%"}
+          textAlign={"center"}
+          m="auto"
+          p="30"
+        >
+          Easily explore and find your favorite food options with intuitive
+          options. Add items to your cart, review your selections, and complete
+          your purchase with ease.
         </Text>
         <Button mt={4} colorScheme="teal" size="lg">
           <Link to="/products">Shop Now</Link>
@@ -140,7 +149,7 @@ const Home = () => {
         width="100%"
       >
         <Text>
-          &copy; {new Date().getFullYear()} E-Commerce Store. All rights
+          &copy; {new Date().getFullYear()} FlavorFeast Store. All rights
           reserved.
         </Text>
       </Box>
