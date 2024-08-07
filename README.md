@@ -36,7 +36,8 @@ Node.js, Express, MongoDB, Mongoose
 ### UI Sample Images
 
 - **Landing Page:**
-  ![image](https://github.com/user-attachments/assets/d3f0d6f1-7680-414a-bdb3-fd7b648b91bb)
+  ![image](https://github.com/user-attachments/assets/5c382478-d9bc-46cb-9cbe-59a3cce27167)
+
 
 )
 
