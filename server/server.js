@@ -19,6 +19,10 @@ app.use(express.json());
 app.use("/api/menu", menuRoutes);
 app.use("/api/cart", cartRoutes);
 
+app.get("/", (req, res) => {
+  res.send("Server is Running");
+});
+
 app.listen(PORT, async () => {
   try {
     await connection;
