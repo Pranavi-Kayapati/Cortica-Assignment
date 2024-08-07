@@ -77,14 +77,17 @@ Create a `.env` file in the `backend` directory with these variables.
 )
 
 - **Product Listing Page:**
-  https://github.com/user-attachments/assets/5e3aa92c-8eb4-47e1-af16-d557f6340ebf
+  ![image](https://github.com/user-attachments/assets/5e3aa92c-8eb4-47e1-af16-d557f6340ebf)
+ 
 )
 - **Product Details:**
-  https://github.com/user-attachments/assets/dbb64111-6abe-4028-b780-8045994c6a92
+  ![image](https://github.com/user-attachments/assets/dbb64111-6abe-4028-b780-8045994c6a92)
+  
 )
 )
 - **Cart Page:**
-https://github.com/user-attachments/assets/428a7287-3ce3-4674-9498-c49b017aa761
+  ![image](https://github.com/user-attachments/assets/428a7287-3ce3-4674-9498-c49b017aa761)
+
 )
 
 ### Features
@@ -95,25 +98,5 @@ https://github.com/user-attachments/assets/428a7287-3ce3-4674-9498-c49b017aa761
 - **Cart Management**: View and manage cart items with real-time updates.
 - **Detailed Cart Summary**: Shows a detailed summary of cart items and total price.
 
----
+  ----
 
-Replace `<repository-url>` and `<repository-directory>` with your actual repository URL and directory name. Update the paths to UI sample images as necessary.
-```## Description
-
-This is a responsive e-commerce application built with React, Redux, and Chakra UI. It features product listings, cart management, and a smooth user experience with responsive design. Users can browse products, add items to the cart, and view their cart with a detailed summary.
-
-## Installation
-
-1. **Clone the Repository:**
-   ```bash
-   git clone <repository-url>
-   cd <repository-directory>
-Install Dependencies:
--**For the backend**:
--```bash
-cd backend
-npm install```
--**For the frontend**:
-```bash
-cd frontend
-npm install```
