@@ -57,11 +57,12 @@
   }
 }
 
-@media (max-width: 550px) {
+@media (max-width: 540px) {
   .products-grid {
     grid-template-columns: 1fr;
   }
   .product-card img {
     width: 90%;
+    height: 150px;
   }
 }

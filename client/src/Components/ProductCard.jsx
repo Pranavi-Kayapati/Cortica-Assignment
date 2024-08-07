@@ -53,7 +53,7 @@ const ProductCard = ({ product, onView }) => {
       mx="auto"
     >
       <Flex
-        direction={{ base: "row", sm: "row", md: "column", lg: "row" }}
+        direction={{ base: "column", sm: "row", md: "column", lg: "row" }}
         align="center"
       >
         <Image
@@ -77,9 +77,9 @@ const ProductCard = ({ product, onView }) => {
           >
             ₹{product.price}
           </Text>
-          <Flex direction={{ base: "column", md: "row" }} gap={2}>
+          <Flex direction={{ base: "row", sm: "column", md: "row" }} gap={2}>
             <Button
-              colorScheme="tomato"
+              colorScheme="teal"
               onClick={handleAddToCart}
               width={{ base: "full", md: "auto" }}
             >
@@ -87,7 +87,7 @@ const ProductCard = ({ product, onView }) => {
             </Button>
             <Button
               variant="outline"
-              colorScheme="tomato"
+              colorScheme="teal"
               onClick={() => onView(product)}
               width={{ base: "full", md: "auto" }}
             >

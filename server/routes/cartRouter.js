@@ -58,22 +58,6 @@ cartRouter.put("/update/:id", async (req, res) => {
   }
 });
 
-// Delete an item from the cart
-// cartRouter.delete("/delete/:id", async (req, res) => {
-//   const { id } = req.params;
-//   try {
-//     const result = await CartItem.findByIdAndDelete({ _id: id });
-
-//     if (!result) {
-//       return res.status(404).json({ message: "Item not found" });
-//     }
-
-//     res.status(204).json({ message: "Item deleted", item: result });
-//   } catch (error) {
-//     res.status(400).json({ error: "Failed to delete item from cart" });
-//   }
-// });
-
 cartRouter.delete("/delete/:id", async (req, res) => {
   const { id } = req.params;
   try {

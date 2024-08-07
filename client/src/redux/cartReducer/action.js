@@ -47,7 +47,10 @@ export const cartGetProducts = () => async (dispatch) => {
 export const cartUpdateProduct = (newData, id) => async (dispatch) => {
   dispatch(productRequest());
   try {
-    const res = await axios.patch(`${basicUrl}/update/${id}`, newData);
+    const res = await axios.put(`${basicUrl}/update/${id}`, newData);
+    const response = await axios.get(basicUrl);
+    dispatch(getProductSuccess(response.data));
+
     dispatch({ type: CART_PATCH_PRODUCT_SUCCESS, payload: res.data });
   } catch (err) {
     dispatch(productFailure(err.message));
