@@ -8,8 +8,7 @@ This is a responsive e-commerce application built with React, Redux, and Chakra 
 
 1. **Clone the Repository:**
    ```bash
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone [<repository-url>](https://github.com/Pranavi-Kayapati/Cortica-Assignment.git)
    ```
 
 2. **Install Dependencies:**
@@ -73,7 +72,8 @@ Create a `.env` file in the `backend` directory with these variables.
 ### UI Sample Images
 
 - **Landing Page:**
-  https://github.com/user-attachments/assets/357fcccd-67ce-4e91-8141-9971a5d756cc
+![image](https://github.com/user-attachments/assets/357fcccd-67ce-4e91-8141-9971a5d756cc)
+  
 )
 
 - **Product Listing Page:**
