@@ -2,7 +2,61 @@
 
 ## Description
 
-This is a responsive e-commerce application built with React, Redux, and Chakra UI. It features product listings, cart management, and a smooth user experience with responsive design. Users can browse products, add items to the cart, and view their cart with a detailed summary.
+This is a responsive e-commerce application built with React, Redux, and Chakra UI. It features product listings, cart management, and a smooth user experience with responsive design. Users can add items to the cart, and view their cart with a detailed summary.
+
+## Deployed links
+-**Frontend :** https://cortica-assignment.vercel.app/
+-**Backend :** https://cortica-assignment.onrender.com/
+
+
+## Backend
+
+### Folder Structure
+
+- `models/` - Contains Mongoose models.
+- `routes/` - Contains Express route handlers.
+- `server.js` - Main entry point for the server.
+- `db.js` - Connecting Database
+
+### API
+
+-**GET `/api/menu/items`** - Retrive all items
+- **POST `/api/cart/add`** - Add an item to the cart.
+- **GET `/api/cart`** - Retrieve all cart items.
+- **PUT `/api/cart/update/:id`** - Update the quantity of a cart item.
+- **DELETE `/api/cart/delete/:id`** - Remove an item from the cart.
+
+## Frontend
+
+### UI Sample Images
+
+- **Landing Page:**
+  ![image](https://github.com/user-attachments/assets/d3f0d6f1-7680-414a-bdb3-fd7b648b91bb)
+
+)
+
+- **Product Listing Page:**
+  ![image](https://github.com/user-attachments/assets/5e3aa92c-8eb4-47e1-af16-d557f6340ebf)
+ 
+)
+- **Product Details:**
+  ![image](https://github.com/user-attachments/assets/dbb64111-6abe-4028-b780-8045994c6a92)
+  
+)
+)
+- **Cart Page:**
+  ![image](https://github.com/user-attachments/assets/428a7287-3ce3-4674-9498-c49b017aa761)
+
+)
+
+### Features
+
+- **Hero Section**: Includes a hero image and description.
+- **Product Carousel**: Displays a carousel of product images and names.
+- **Responsive Design**: Adapts to different screen sizes and devices.
+- **Cart Management**: View and manage cart items with real-time updates.
+- **Detailed Cart Summary**: Shows a detailed summary of cart items and total price.
+
 
 ## Installation
 
@@ -49,54 +103,6 @@ Ensure the following environment variables are set for the backend:
 
 Create a `.env` file in the `backend` directory with these variables.
 
-## Backend
-
-### Folder Structure
-
-- `models/` - Contains Mongoose models.
-- `routes/` - Contains Express route handlers.
-- `controllers/` - Contains logic for route handling.
-- `middleware/` - Contains custom middleware.
-- `config/` - Contains configuration files.
-- `server.js` - Main entry point for the server.
-
-### API
-
-- **POST `/api/cart/add`** - Add an item to the cart.
-- **GET `/api/cart`** - Retrieve all cart items.
-- **PUT `/api/cart/update/:id`** - Update the quantity of a cart item.
-- **DELETE `/api/cart/delete/:id`** - Remove an item from the cart.
-
-## Frontend
-
-### UI Sample Images
-
-- **Landing Page:**
-![image](https://github.com/user-attachments/assets/357fcccd-67ce-4e91-8141-9971a5d756cc)
-  
-)
-
-- **Product Listing Page:**
-  ![image](https://github.com/user-attachments/assets/5e3aa92c-8eb4-47e1-af16-d557f6340ebf)
- 
-)
-- **Product Details:**
-  ![image](https://github.com/user-attachments/assets/dbb64111-6abe-4028-b780-8045994c6a92)
-  
-)
-)
-- **Cart Page:**
-  ![image](https://github.com/user-attachments/assets/428a7287-3ce3-4674-9498-c49b017aa761)
-
-)
-
-### Features
-
-- **Hero Section**: Includes a hero image and description.
-- **Product Carousel**: Displays a carousel of product images and names.
-- **Responsive Design**: Adapts to different screen sizes and devices.
-- **Cart Management**: View and manage cart items with real-time updates.
-- **Detailed Cart Summary**: Shows a detailed summary of cart items and total price.
 
   ----
 
