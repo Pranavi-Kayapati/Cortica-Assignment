@@ -79,7 +79,7 @@ const ProductCard = ({ product, onView }) => {
           </Text>
           <Flex direction={{ base: "column", md: "row" }} gap={2}>
             <Button
-              colorScheme="tomato"
+              colorScheme="teal"
               onClick={handleAddToCart}
               width={{ base: "full", md: "auto" }}
             >
@@ -87,7 +87,7 @@ const ProductCard = ({ product, onView }) => {
             </Button>
             <Button
               variant="outline"
-              colorScheme="tomato"
+              colorScheme="teal"
               onClick={() => onView(product)}
               width={{ base: "full", md: "auto" }}
             >

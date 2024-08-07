@@ -97,7 +97,7 @@ const ProductModal = ({ isOpen, onClose, product, onAddToCart }) => {
             </Flex>
             <Box mt={4} textAlign="center">
               <Button
-                colorScheme="tomato"
+                colorScheme="teal"
                 onClick={handleAddToCart}
                 className="add-to-cart-button"
               >
