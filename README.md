@@ -45,14 +45,14 @@ This is a responsive e-commerce application built with React, Redux, and Chakra 
 )
 )
 - **Cart Page:**
-  ![image](https://github.com/user-attachments/assets/428a7287-3ce3-4674-9498-c49b017aa761)
+  ![image](https://github.com/user-attachments/assets/0f09a1a1-a302-48a2-b252-b656b024909f)
 
 )
 
 ### Features
 
 - **Hero Section**: Includes a hero image and description.
-- **Product Carousel**: Displays a carousel of product images and names.
+- **Product Carousel**: Displays a carousel of product images.
 - **Responsive Design**: Adapts to different screen sizes and devices.
 - **Cart Management**: View and manage cart items with real-time updates.
 - **Detailed Cart Summary**: Shows a detailed summary of cart items and total price.
