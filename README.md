@@ -2,7 +2,7 @@
 
 ## Description
 
-This is a responsive e-commerce application built with React, Redux, and Chakra UI. It features product listings, cart management, and a smooth user experience with responsive design. Users can add items to the cart, and view their cart with a detailed summary.
+This is a responsive FlavorFeast application built with React, Redux, and Chakra UI. It features product listings, cart management, and a smooth user experience with responsive design. Users can add items to the cart, and view their cart with a detailed summary.
 
 ## Deployed links
 -**Frontend :** https://cortica-assignment.vercel.app/
