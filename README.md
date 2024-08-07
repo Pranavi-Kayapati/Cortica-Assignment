@@ -8,6 +8,11 @@ This is a responsive e-commerce application built with React, Redux, and Chakra 
 -**Frontend :** https://cortica-assignment.vercel.app/
 -**Backend :** https://cortica-assignment.onrender.com/
 
+## Technology Stack
+### Frontend: 
+React, Redux, Chakra UI, React Router DOM, Axios, React Responsive Carousel
+### Backend:
+Node.js, Express, MongoDB, Mongoose
 
 ## Backend
 
