@@ -11,9 +11,9 @@ This is a responsive FlavorFeast application built with React, Redux, and Chakra
   https://cortica-assignment.onrender.com/
 
 ## Technology Stack
-### Frontend: 
+- **Frontend:** 
 React, Redux, Chakra UI, React Router DOM, Axios, React Responsive Carousel
-### Backend:
+- **Backend:**
 Node.js, Express, MongoDB, Mongoose
 
 ## Backend
