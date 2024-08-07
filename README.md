@@ -70,7 +70,7 @@ Node.js, Express, MongoDB, Mongoose
 
 1. **Clone the Repository:**
    ```bash
-   git clone [<repository-url>](https://github.com/Pranavi-Kayapati/Cortica-Assignment.git)
+   git clone https://github.com/Pranavi-Kayapati/Cortica-Assignment.git
    ```
 
 2. **Install Dependencies:**
