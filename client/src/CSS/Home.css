@@ -1,0 +1,26 @@
+.carousel .carousel-item {
+  padding: 0 10px;
+}
+.carousel .carousel-arrow {
+  background-color: rgba(255, 255, 255, 0.5);
+  border: none;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel .carousel-arrow-prev {
+  left: 10px;
+}
+
+.carousel .carousel-arrow-next {
+  right: 10px;
+}
+
+.carousel .carousel-item img {
+  height: 200px;
+  width: 300px;
+}

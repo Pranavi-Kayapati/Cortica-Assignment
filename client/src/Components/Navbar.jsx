@@ -77,7 +77,7 @@ const Navbar = () => {
         </Flex>
       </Flex>
 
-      <Drawer isOpen={isOpen} onClose={onClose} placement="top">
+      <Drawer isOpen={isOpen} onClose={onClose} placement="right">
         <DrawerOverlay />
         <DrawerContent bg="tomato" color="white">
           <DrawerCloseButton />
@@ -87,20 +87,30 @@ const Navbar = () => {
               <Link
                 to="/products"
                 onClick={onClose}
-                style={{ textDecoration: "none", color: "tomato" }}
+                style={{ textDecoration: "none", color: "white" }}
                 background={"white"}
               >
-                <Button w="100%" variant="outline" colorScheme="whiteAlpha">
+                <Button
+                  w="100%"
+                  variant="none"
+                  colorScheme="white"
+                  borderBottom={"1px solid white"}
+                >
                   Products
                 </Button>
               </Link>
               <Link
                 to="/cart"
                 onClick={onClose}
-                style={{ textDecoration: "none", color: "tomato" }}
+                style={{ textDecoration: "none", color: "white" }}
                 background={"white"}
               >
-                <Button w="100%" variant="outline" colorScheme="whiteAlpha">
+                <Button
+                  w="100%"
+                  variant="none"
+                  colorScheme="white"
+                  borderBottom={"1px solid white"}
+                >
                   Cart
                 </Button>
               </Link>
