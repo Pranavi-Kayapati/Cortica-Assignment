@@ -1,10 +1,5 @@
 # Cortica-Assignment
 
-Certainly! Here's a combined version of the README documentation with everything included in one markdown block:
-
-```markdown
-# E-Commerce Application
-
 ## Description
 
 This is a responsive e-commerce application built with React, Redux, and Chakra UI. It features product listings, cart management, and a smooth user experience with responsive design. Users can browse products, add items to the cart, and view their cart with a detailed summary.
@@ -78,18 +73,18 @@ Create a `.env` file in the `backend` directory with these variables.
 ### UI Sample Images
 
 - **Landing Page:**
-  ![Landing Page](![image](https://github.com/user-attachments/assets/357fcccd-67ce-4e91-8141-9971a5d756cc)
+  https://github.com/user-attachments/assets/357fcccd-67ce-4e91-8141-9971a5d756cc
 )
 
 - **Product Listing Page:**
-  ![Product Listing Page](![image](https://github.com/user-attachments/assets/5e3aa92c-8eb4-47e1-af16-d557f6340ebf)
+  https://github.com/user-attachments/assets/5e3aa92c-8eb4-47e1-af16-d557f6340ebf
 )
 - **Product Details:**
-  ![Product Details](![image](https://github.com/user-attachments/assets/dbb64111-6abe-4028-b780-8045994c6a92)
+  https://github.com/user-attachments/assets/dbb64111-6abe-4028-b780-8045994c6a92
 )
 )
 - **Cart Page:**
-  ![Cart Page](![image](https://github.com/user-attachments/assets/428a7287-3ce3-4674-9498-c49b017aa761)
+https://github.com/user-attachments/assets/428a7287-3ce3-4674-9498-c49b017aa761
 )
 
 ### Features
@@ -114,13 +109,11 @@ This is a responsive e-commerce application built with React, Redux, and Chakra 
    git clone <repository-url>
    cd <repository-directory>
 Install Dependencies:
-For the backend:
-bash
-Copy code
+-**For the backend**:
+-```bash
 cd backend
-npm install
-For the frontend:
-bash
-Copy code
+npm install```
+-**For the frontend**:
+```bash
 cd frontend
-npm install
+npm install```
