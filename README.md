@@ -45,16 +45,16 @@ Node.js, Express, MongoDB, Mongoose
 - **Product Listing Page:**
  ![image](https://github.com/user-attachments/assets/dbe02421-aba5-4327-b7b5-328444e02b02)
 
-)
+
 - **Product Details:**
   ![image](https://github.com/user-attachments/assets/dbb64111-6abe-4028-b780-8045994c6a92)
   
-)
-)
-- **Cart Page:**
-  ![image](https://github.com/user-attachments/assets/0f09a1a1-a302-48a2-b252-b656b024909f)
 
-)
+- **Cart Page:**
+  ![image](https://github.com/user-attachments/assets/e196fea2-6042-4548-87f4-5f045e07dbf2)
+
+
+
 
 ### Features
 
