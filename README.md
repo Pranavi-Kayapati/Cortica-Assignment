@@ -41,11 +41,10 @@ Node.js, Express, MongoDB, Mongoose
   ![image](https://github.com/user-attachments/assets/5c382478-d9bc-46cb-9cbe-59a3cce27167)
 
 
-)
 
 - **Product Listing Page:**
-  ![image](https://github.com/user-attachments/assets/5e3aa92c-8eb4-47e1-af16-d557f6340ebf)
- 
+ ![image](https://github.com/user-attachments/assets/dbe02421-aba5-4327-b7b5-328444e02b02)
+
 )
 - **Product Details:**
   ![image](https://github.com/user-attachments/assets/dbb64111-6abe-4028-b780-8045994c6a92)
